@@ -1,0 +1,15 @@
+To run
+
+1. Extract the zip file
+2. navigate to root directory
+3. npm install
+4. npm start
+
+
+
+
+Technology used
+
+React.js
+ReactStrap
+Mui

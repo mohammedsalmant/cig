@@ -1,0 +1,48 @@
+.nav1-main {
+  height: 4rem;
+  background-color: #131921;
+}
+.nav1-img {
+  height: 4rem;
+}
+#nav1-signup {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid;
+  padding: 0rem 2rem;
+}
+
+#nav1-login {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid;
+  padding: 0rem 2rem;
+}
+.form-control {
+  width: 40vw !important;
+}
+@media screen and (max-width: 480px) {
+  .nav1-main {
+    height: 5rem;
+  }
+  .nav1-img {
+    height: 3rem;
+  }
+  #nav1-login {
+    display: none;
+  }
+  #nav1-signup {
+    display: none;
+  }
+  .form-control {
+    width: 53vw !important;
+  }
+}
+/* @media screen and (min-width: 1200px) {
+  .container {
+    max-width: 100vw;
+  }
+} */
+.nav1-main-container {
+  max-width: 100vw;
+}

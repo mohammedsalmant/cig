@@ -1,0 +1,35 @@
+.OurMajorPartnership-main {
+  height: 38vh;
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.OurMajorPartnership-main h2 {
+  padding-bottom: 1rem;
+}
+.OurMajorPartnership {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  max-width: 100%;
+}
+.OurMajorPartnership-cardMain {
+  width: 19rem;
+  height: 10rem;
+}
+.OurMajorPartnership-cardMain img {
+  width: 16rem;
+  height: 10rem;
+  object-fit: cover;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .OurMajorPartnership-main {
+    height: 150vh;
+  }
+  .OurMajorPartnership {
+    grid-template-columns: auto;
+  }
+}

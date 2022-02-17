@@ -1,0 +1,8 @@
+.bestsellingMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 2rem;
+  background-color: #fff;
+}

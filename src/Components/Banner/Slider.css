@@ -1,0 +1,24 @@
+.bannerSliderMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.bannerSlider {
+  height: 56vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.bannerSliderContent img {
+  height: 47vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+/* @media screen and (max-width: 480px) {
+    .bannerSliderContent img{
+
+  }
+} */

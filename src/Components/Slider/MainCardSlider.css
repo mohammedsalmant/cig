@@ -1,0 +1,50 @@
+.MaincardSliderMain {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  max-width: 100%;
+  height: 64vh;
+  /* background-color: red; */
+}
+.inner-card a {
+  text-decoration: none;
+}
+.inner-card a:hover {
+  text-decoration: none;
+}
+Slider {
+  margin: 41px 111px;
+  width: 90vw;
+}
+.MaincardSliderContainer {
+  width: 80%;
+  height: 95%;
+  /* background-color: yellow; */
+}
+/* .slick-slide {
+  margin-left: 0px;
+} */
+.slick-prev:before {
+  color: rgb(185, 184, 184) !important;
+  background-color: #eee;
+}
+.slick-next:before {
+  color: rgb(185, 184, 184) !important;
+  background-color: #eee;
+}
+
+.slick-slider a,
+.slick-slider a:hover {
+  text-decoration: none;
+  color: unset;
+}
+@media screen and (max-width: 480px) {
+  .MaincardSliderMain {
+    height: 74vh !important;
+  }
+  .MaincardSliderContainer {
+    width: 100%;
+    height: 95%;
+  }
+}
