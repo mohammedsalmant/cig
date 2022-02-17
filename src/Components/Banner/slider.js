@@ -57,7 +57,7 @@ export default class SimpleSlider extends Component {
             <img src="/images/bn.jpg" alt="" />
           </div>
           <div className="bannerSliderContent">
-          <img src="/images/t.jpeg" alt="" />
+          <img src="/images/5.jpg" alt="" />
           </div>
           
         </Slider>
